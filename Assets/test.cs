@@ -5,8 +5,7 @@ public class test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log("hello world");
-        Debug.Log("tuika sareta gyou");
+        Debug.Log("haro-wa-rudo");
 	}
 	
 	// Update is called once per frame
