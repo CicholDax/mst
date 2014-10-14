@@ -41,3 +41,12 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+#noto ga tuika sita
+Library
+Temp
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
