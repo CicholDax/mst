@@ -11,7 +11,7 @@ public class screenActor : MonoBehaviour {
         Material temp = m_manager.GetlayerMaterial(
             LayerMask.LayerToName(gameObject.layer));
         
-        
+
         //ホログラムを作成
         CreateHologram( temp );
 
@@ -35,7 +35,7 @@ public class screenActor : MonoBehaviour {
         New.AddComponent<MeshFilter>().mesh = gameObject.GetComponent<MeshFilter>().mesh;
 
         //マテリアルの設定
-        New.renderer.material = gameObject.renderer.material;
+        New.renderer.material = mat;
 
         //親に
         New.transform.parent = gameObject.transform;
